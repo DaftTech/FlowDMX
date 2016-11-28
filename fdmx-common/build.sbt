@@ -6,11 +6,9 @@ libraryDependencies ++= Seq(
   "org.typelevel" %% "cats" % "0.8.1",
   "com.chuusai" %% "shapeless" % "2.3.2",
   "com.github.mpilquist" %% "simulacrum" % "0.10.0",
+  "org.scodec" % "scodec-bits_2.11" % "1.1.2",
   "io.monix" %% "monix" % "2.1.0",
   "io.monix" %% "monix-cats" % "2.1.0",
-  "com.typesafe.akka" %% "akka-actor" % "2.4.12",
-  "com.typesafe.akka" %% "akka-remote" % "2.4.12",
-  "com.typesafe.akka" %% "akka-stream" % "2.4.12",
   "io.spray" %% "spray-json" % "1.3.2",
   "com.github.fommil" %% "spray-json-shapeless" % "1.2.0"
 )
